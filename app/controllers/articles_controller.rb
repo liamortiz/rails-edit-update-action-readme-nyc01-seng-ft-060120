@@ -25,5 +25,6 @@ class ArticlesController < ApplicationController
   
   def update
     # Update functionality here
+    redirect_to articles_path
   end
 end
